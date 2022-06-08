@@ -1,91 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yoga</title>
-    
+    <link rel="stylesheet" href="assets/img/style.css">
 </head>
 
 <body>
-    <!-- global fetaures -->
-    <div class="global"></div>
-
-    <!-- top bar -->
-
-    <div class="Menu">
-       <!-- <img class="logo1" src="" alt="logoicon">-->
+    <div class="container">
+        <!-- global fetaures -->
+        <div class="global">
+            <h1>Yoga with Us</h1>
         </div>
 
-<!--Pose 1 -->
-<div class="pose1"> 
-    <h1 class="text"> Example text </h1>
-     <!--<p class="p_part1">Description
-    <img class="phone" src="" alt="alternativetext">
-    </p>-->
-</div>
-     
-
-    <!--Pose 2 -->
-<div class="pose2"> 
-    <h1 class="text"> Example text </h1>
-     <!--<p class="p_part1">Description
-    <img class="phone" src="" alt="alternativetext">
-    </p>-->
-</div>
-
-  <!--Pose 3 -->
-  <div class="pose3"> 
-    <h1 class="text"> Example text </h1>
-     <!--<p class="p_part1">Description
-    <img class="phone" src="" alt="alternativetext">
-    </p>-->
-</div>
+        <!--Pose 1 -->
+        <div class="pose">
+            <h2 class="text"> Le lotus </h2>
+            <p class="p_part1">
+                Position : assise, jambes en tailleur, idéalement les pieds posés sur les cuisses. Bras relâchés presque
+                tendus, mains déposées sur les genoux, paumes vers le ciel, index et pouce pincés en "chin mudra"
+                (attitude de la sagesse ou de la conscience).
+                Bienfaits de cette position de yoga : Concentration et calme.
+            </p>
+            <img class="phone" src="assets/img/lotus.webp" alt="alternativetext">
+        </div>
 
 
-<!--Pose 4 -->
-<div class="pose4"> 
-    <h1 class="text"> Example text </h1>
-     <!--<p class="p_part1">Description
-    <img class="phone" src="" alt="alternativetext">
-    </p>-->
-</div>
+        <!--Pose 2 -->
+        <div class="pose">
+            <h2 class="text"> Janu Sirsasana </h2>
+            <p class="p_part1">
+                Position : Variante de la pince avec une jambe tendue, pied flexe, l’autre repliée, pied contre l'aine
+                de la cuisse opposée. Poignet enserré. Doigts de la main tenue en "chin mudra" (attitude de la sagesse
+                ou de la conscience).
+                Bienfaits de cette position de yoga : Etirement intense de tout l’arrière du corps, apporte tranquillité
+                et apaisement.
+            </p>
+            <img class="phone" src="assets/img/Janu Sirsasana.jfif" alt="alternativetext">
+        </div>
 
-<div class="RSV">
-    <h1 class="text_style" >Book your yoga class </h1>
+        <!--Pose 3 -->
+        <div class="pose">
+            <h2 class="text"> Le guerrier </h2>
+            <p class="p_part1">
+                Position : Jambe avant fléchie, pied avant dans l’alignement du tapis. Jambe arrière tendue, pied
+                arrière presque perpendiculaire au pied avant. BUste et bassin de face. Bras tendus, mains jointes en
+                prière vers le ciel.
+                Bienfaits de cette posture de yoga : Développe la cage thoracique, ouvre les hanches et renforce les
+                jambes.
+            </p>
+            <img class="phone" src="assets/img/Le guerrier.jfif" alt="alternativetext">
+        </div>
 
-    <form action="/action_page.php">
-      <p class ="text2_style">Select you Yoga Class </p>
-      <input type="radio" id="Vinyasa " name="fav_language" value="Vinyasa">
-      <label for="html">Vinyasa</label><br>
-      <input type="radio" id="Ashtanga " name="fav_language" value="Ashtanga ">
-      <label for="css">Ashtanga </label><br>
-      <input type="radio" id="Kundalini " name="fav_language" value="Kundalini ">
-      <label for="javascript">Kundalini</label>
-    
-      <br>  
-    
-      <p class="text3_style"> Time </p>
-      <input type="radio" id="a" name="a" value="8:00 - 9:00">
-      <label for="age1">8:00 - 9:00</label><br>
-      <input type="radio" id="b" name="b" value="12:00 - 13:00">
-      <label for="age2">12:00 - 13:00</label><br>  
-      <input type="radio" id="c" name="c" value="18:00 - 19:00">
-      <label for="age3">18:00 - 19:00</label><br><br>
-      <input type="submit" value="Submit">
-    </form>
+        <!--Pose 4 -->
+        <div class="pose">
+            <h2 class="text"> Grand étirement latéral </h2>
+            <p class="p_part1">
+                Position : Jambe avant pliée, genou au dessus du pied avant. Pied à l’avant dans l’alignement du tapis,
+                pied arrière perpendiculaire au pied avant. Le coude du bras avant (opposé à la jambe pliée) vient se
+                poser sur la face externe de la cuisse avant, main posée au sol. Bras arrière tendu vers le ciel.
+                Bienfaits de cette figure de yoga : Etirement complet de la colonne vertébrale et de la jambe, renforce
+                la capacité respiratoire, ouvre les épaules. Les torsions sont également bénéfiques à la détox.
+            </p>
+            <img class="phone" src="assets/img/Grand étirement latéral.jfif" alt="alternativetext">
+        </div>
 
-</div>
+        <div class="RSV">
+            <h1>Book your yoga class </h1>
+
+            <form action="/action_page.php" method="POST" class="form">
+                <h3>Select you Yoga Class </h3>
+                <input type="radio" id="Vinyasa " name="fav_language" value="Vinyasa">
+                <label for="html">Vinyasa</label><br>
+                <input type="radio" id="Ashtanga " name="fav_language" value="Ashtanga ">
+                <label for="css">Ashtanga </label><br>
+                <input type="radio" id="Kundalini " name="fav_language" value="Kundalini ">
+                <label for="javascript">Kundalini</label>
+
+                <br>
+
+                <h3>Time</h3>
+                <input type="radio" id="a" name="time" value="8:00 - 9:00">
+                <label for="age1">8:00 - 9:00</label><br>
+                <input type="radio" id="b" name="time" value="12:00 - 13:00">
+                <label for="age2">12:00 - 13:00</label><br>
+                <input type="radio" id="c" name="time" value="18:00 - 19:00">
+                <label for="age3">18:00 - 19:00</label><br><br>
+                <input type="submit" value="Submit" class="sub">
+            </form>
+
+        </div>
 
 
 
 
 
 
-</div>
+    </div>
+    </div>
+
 
 
 
 </body>
+
 </html>

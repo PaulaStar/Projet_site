@@ -61,3 +61,15 @@ h3 {
     font-family: Ubuntu, sans-serif;
     font-size: 1.2rem;
 }
+
+img {
+    width: 400px;
+    align-text: center;
+}
+
+p.p_part1 {
+    margin-left: 50px;
+    margin-right: 300px;
+    text-align: left;
+
+}
